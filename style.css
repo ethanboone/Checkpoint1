@@ -1,9 +1,36 @@
 .background-image {
     background-image: url(https:/placehold.it/300x400);
+    background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
     .background-image {
         background: #6c757d;
+    }
+}
+
+.card-overlay {
+    position: relative;
+}
+
+.not-overlayed-card {
+    position: static!important;
+}
+
+.overlayed-card {
+    position: absolute;
+    right: 10rem;
+    top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .overlayed-card {
+        position: static;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .not-overlayed-card {
+        position: static!important;
     }
 }
