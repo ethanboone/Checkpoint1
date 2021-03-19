@@ -8,43 +8,60 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Music Store</title>
+    <title>echo</title>
 </head>
 
 <body>
     <header class="sticky-top">
         <nav class="navbar navbar-light bg-primary">
-            <span class="navbar-brand text-light mb-0 h1">Music Store</span>
+            <span class="navbar-brand text-light mb-0 h1">echo</span>
         </nav>
     </header>
 
     <main>
         <div class="container-fluid">
             <div class="row background-image justify-content-around py-4">
-                <div class="col-10 col-md-3 card d-flex">
+                <div class="col-10 col-md-3 card d-flex p-2">
                     <h5 class="card-title">Sign Up</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum minima quos eveniet.
-                        Molestiae suscipit, ad similique tempora nobis iure!</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Sign up for our newsletter</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
 
-                <div class="col-10 col-md-4 d-md-flex d-none">
-                    <h2>Music Store</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ex possimus sapiente
-                        consequuntur deserunt mollitia assumenda libero ratione tempora fuga.</p>
+                <div class="col-10 col-md-4 d-md-flex d-none align-items-center">
+                    <h2 class="pr-3">echo</h2>
+                    <p>We provide customers with quality instruments for discount prices. We carry all kinds of
+                        instruments, whether you are shopping for classical instruments for school band, looking for a
+                        drumset to start a garageband, or just browsing for another guitar to add to your collection,
+                        echo has you covered.</p>
                 </div>
             </div>
             <div class="row card-overlay bg-primary py-3">
-                <div class="col-12 col-md-5 d-flex order-3 order-sm-1 justify-content-between not-overlayed-card">
+                <div
+                    class="col-12 col-md-5 d-flex py-4 order-3 order-sm-1 justify-content-between not-overlayed-card text-light">
                     <h2></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quo, placeat illo quidem beatae
-                        recusandae! Nisi molestiae repellat commodi adipisci.</p>
+                    <p>We carry all kinds of music gear.</p>
                 </div>
 
                 <div class="col-12 col-md-5 d-flex flex-column order-2 text-center card overlayed-card">
-                    <p>ICON Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>ICON Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>ICON Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p>ICON Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>ICON New Instruments</p>
+                    <p>ICON Used Instruments</p>
+                    <p>ICON Recording Equiptment</p>
+                    <p>ICON Classical Instruments</p>
                 </div>
             </div>
             <div class="row justify-content-around my-5 align-content-center">
@@ -53,32 +70,29 @@
                 </div>
 
                 <div class="col-12 col-md-4 pt-5">
-                    <h2>ICON Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam error et neque accusamus.
-                        Rem, tempore.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, atque iure commodi quo porro
-                        pariatur consequuntur esse neque voluptatibus repellat. </p>
-                    <btn class="btn-primary">MORE</btn>
+                    <h2>ICON Echo has provided aspiring musicians as well as professionals with high quality gear for
+                        20 years.</h2>
+                    <p class="text-muted">FIND DISCOUNTED ITEMS FOR OUR 20 YEAR ANNIVERSARY SALE</p>
+                    <btn class="btn-primary px-1">SHOP NOW</btn>
 
                 </div>
             </div>
             <div class="row justify-content-around mb-5">
                 <div class="col-12 col-md-3 d-flex flex-column text-center card">
-                    <h3>"<span>Lorem ipsum dolor sit amet.</span>"</h3>
-                    <p>Lorem, ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>"<span>Echo is my go to for guitars. They've never let me down.</span>"</h3>
+                    <p>Slash</p>
                 </div>
 
                 <div class="col-12 col-md-3 d-flex flex-column text-center card">
-                    <p>ICON ICON ICON</p>
-                    <h3>"<span>Lorem ipsum dolor sit amet.</span>"</h3>
-                    <p>Lorem, ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <p>ICON</p>
+                    <h3>Users rated Echo 5 stars for our outstanding customer service and unbeatable prices.</h3>
+                    <p>Voted best guitar retailer for 2020</p>
                 </div>
 
                 <div class="col-12 col-md-3 d-flex flex-column text-center card">
-                    <h3>"<span>Lorem ipsum dolor sit amet.</span>"</h3>
-                    <p>Lorem, ipsum.</p>
-                    <p>Lorem ipsum dolor sit amet.</p>
+                    <h3>"<span>There is no other option when it comes to music gear. Echo never fails to impress</span>"
+                    </h3>
+                    <p>Pitchfork</p>
                 </div>
             </div>
         </div>
@@ -88,12 +102,16 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 d-flex flex-column bg-primary text-light">
-                    <h1>Music Store</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, accusamus.</p>
+                    <h1>echo</h1>
+                    <p>WE PROVIDE CUSTOMERS WITH QUALITY INSTRUMENTS FOR DISCOUNT PRICES</p>
                 </div>
-                <div class="col-12 d-flex justify-content-center bg-light text-primary">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vel dolore harum quod
-                        aliquid aliquam.</p>
+                <div class="col-12 d-flex flex-column justify-content-center bg-light text-primary">
+                    <div class="btn">
+                        <p>
+                            Customer Service: 1(800)000-0000
+                        </p>
+                    </div>
+                    <p class="text-center text-muted">copyright 2021 all rights reserved</p>
                 </div>
             </div>
             <div class="row">
