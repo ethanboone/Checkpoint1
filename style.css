@@ -2,6 +2,22 @@ body {
     font-family: "PT Sans", sans-serif;
 }
 
+.primary-bg {
+    background-color: darkorange !important;
+}
+
+.primary-text {
+    color: darkorange !important;
+}
+.bg-primary {
+    background-color: darkorange !important;
+}
+
+.text-primary {
+    text-color: darkorange !important;
+}
+
+
 .background-image {
     background-image: url(tim-toomey-eiY4KJ62P5Q-unsplash.jpg);
     background-size: cover;
